@@ -1,0 +1,63 @@
+.game-container {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid #333;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #ff6b6b;
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff3b3b;
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

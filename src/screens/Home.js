@@ -3,10 +3,10 @@ import { Video } from "../component/videos"
 
 export const Home = () => {
     return (
-        <div>
+        <main>
             <About/>
             <Video id="zhP_njYPMKc"/>
             <Video id="ryEUuEsgU_s"/>
-        </div>
+        </main>
     )
 }
